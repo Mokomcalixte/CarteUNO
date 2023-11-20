@@ -1,0 +1,71 @@
+/* Styles pour la classe card */
+.card {
+  width: 150px;
+  height: 250px;
+  background-color: #aa1616;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 7px; /* Ajoutez de la marge entre chaque carte */
+}
+
+/* Styles pour la classe innerCard */
+.innerCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+/* Styles pour la classe circle */
+.circle {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(35deg);
+}
+
+/* Styles pour la classe innerCircle */
+.innerCircle {
+  width: 95%;
+  height: 95%;
+  background-color: #aa1616;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles pour la classe reverse */
+.reverse {
+  transform: rotate(180deg);
+}
+
+/* Styles pour la classe center */
+.center {
+  font-size: 50px;
+  font-weight: bold;
+  transform: rotate(-35deg);
+}
+
+/* Styles pour la classe uppernumber */
+.uppernumber {
+  display: flex;
+  justify-content: start;
+}
+
+/* Ajoutez une règle pour spécifier le nombre de cartes par ligne */
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
